@@ -1,0 +1,164 @@
+
+@font-face {
+  font-family: 'RedditMono';
+  src: url("../src/RedditMono-Light.ttf") format('truetype');
+}
+
+.background {
+  background-image: url("../src/web.png"); 
+  background-position: center; 
+  font-family: 'RedditMono', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+
+header {
+  background-color: #000000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px; 
+  height: auto;
+}
+
+.footer-content {
+  background-color: #0e0e0e;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHeader {
+  color: #ffffff;
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.subHeader {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 10px 25px; 
+  white-space: nowrap; 
+  font-weight: 600;
+}
+
+.subHeader-container {
+  margin-left: 170px;
+}
+
+
+.Description {
+  color: #ffffff;
+  margin: 0;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+
+.navBar {
+  display: flex;
+  gap: 15px; 
+  padding-right: 25px;
+  font-size: 17px;
+}
+
+.navBar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ImageBox {
+  margin-left: 125px;
+  display: grid;
+  grid-template-columns: .45fr .45fr; 
+  gap: 20%;
+  padding: 20px;
+  justify-content: left;
+}
+
+.ImageBox img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+}
+
+.right-side {
+  flex-direction: column; 
+}
+
+.imageWithDescription {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  margin-bottom: 150px;
+}
+
+.imageWithDescription.visible {
+  opacity: 1;
+}
+
+
+.imageWithDescription.single-image {
+  display: flex;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 25px; 
+  padding-right: 25px; 
+  width: auto;
+}
+
+
+
+.imageWithDescription.single-image .Description {
+  color: #ffffff;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 25px; 
+  padding-right: 25px; 
+  width: 200px; 
+}
+
+
+.Spacer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.Spacer div {
+  height: 1px;
+  background-color: #5c5c5c;
+  width: 87%; 
+}
+
+.active-link {
+  font-weight: 900;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+.contact-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #2A5470  , #4C4177);
+    color: white;
+  }
+  
+  .contact-hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-hero p {
+    font-size: 18px;
+    opacity: 0.9;
+  }
+  

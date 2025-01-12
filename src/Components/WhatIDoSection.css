@@ -1,0 +1,17 @@
+.what-i-do {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .what-i-do h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .what-i-do p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }

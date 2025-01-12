@@ -1,0 +1,36 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.contact-info {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .social-links a {
+    margin: 0 15px;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .social-links a i {
+    margin-right: 8px;
+    font-size: 22px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
